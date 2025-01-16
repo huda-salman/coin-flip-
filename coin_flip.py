@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd 
 from random import choice
 
-
-st.image(r"D:\Git\testing-git-app\coinppint.jpg")
 st.title("welcome here! ")
 st.subheader("this is a simple game \n so test out your like and enjoy ")
 name=st.text_input("what is the :blue[name] of the brave sodlier ?")
