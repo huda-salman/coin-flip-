@@ -3,7 +3,7 @@ import pandas as pd
 from random import choice
 
 
-st.image("D:\\Git\\testing-git-app\\coinppint.jpg")
+st.image(r"D:\Git\testing-git-app\coinppint.jpg")
 st.title("welcome here! ")
 st.subheader("this is a simple game \n so test out your like and enjoy ")
 name=st.text_input("what is the :blue[name] of the brave sodlier ?")
@@ -16,4 +16,3 @@ def coin_flip():
       st.write("player",name," did not win")
       st.write("try again next time! :blue[*loser*] 🤡")
 st.text(coin_flip())
-
