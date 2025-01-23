@@ -49,7 +49,7 @@ elif name=="gora" or name=="Gora":
     st.image("./gora.jpg")
 
 elif name=="saki" or name=="Saki"or name=="mahdi" or name=="Mahdi":
-    st.image("./cat.jpg ", caption="a cat won't save you, touch some grass.")
+    st.image("./cat.jpg", caption="a cat won't save you, touch some grass.")
 
 else:   
     st.write(":blue[hi] "+ name+" 👋🏻")
