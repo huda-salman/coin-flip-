@@ -50,6 +50,8 @@ elif name=="gora" or name=="Gora":
 
 elif name=="saki" or name=="Saki"or name=="mahdi" or name=="Mahdi":
     st.image("./cat.jpg", caption="a cat won't save you, touch some grass.")
-
+elif name=="zahraa" or name=="Zahraa":
+    st.text("Hello ZoZo!<3")
+    st.image("C:\Users\huda.luabi\Downloads\Telegram Desktop\zozo_oic.jpg", caption="can't forgibe him,can we ?")
 else:   
     st.write(":blue[hi] "+ name+" 👋🏻")
